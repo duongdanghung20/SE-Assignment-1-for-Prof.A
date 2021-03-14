@@ -18,7 +18,7 @@ import java.util.Objects;
  *    mutable(name) = true /\ optional(name) = false /\ length(name) = 50 /\
  *    mutable(phoneNumber) = true /\ optional(phoneNumber) = false /\ length(phoneNumber) = 10 /\
  *    mutable(address) = true /\ optional(address) = false /\ length(address) = 100
- * @author Duong Dang Hung
+ * @author Nguyen Ngoc Anh
  */
 
 public class Student implements Comparable<Student>, Document {

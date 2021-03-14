@@ -12,7 +12,7 @@ import java.math.*;
  *    P_Student /\
  *    min(id) = 10^8+1 /\ max(id) = 10^9 /\
  *    mutable(gpa) = true /\ optional(gpa) = false /\ min(gpa) = 0 /\ max(gpa) = 4
- * @author Duong Dang Hung
+ * @author Nguyen Ngoc Anh
  */
 public class PostgradStudent extends Student {
     @DomainConstraint(type = "Float",mutable = true, optional = false, min = 0.0, max = 4.0)

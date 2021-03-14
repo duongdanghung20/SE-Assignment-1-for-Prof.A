@@ -8,7 +8,7 @@ import utils.*;
  * @abstract_properties
  *    P_Student /\
  *    min(id) = 10^5 /\ max(id) = 10^8
- * @author Duong Dang Hung
+ * @author Nguyen Ngoc Anh
  */
 public class UndergradStudent extends Student {
     /**
